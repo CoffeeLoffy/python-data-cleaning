@@ -205,3 +205,26 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Large CSV files
+*.csv
+DataCoSupplyChainDataset.csv
+supply_chain_cleaned.csv
+tokenized_access_logs.csv
+
+# Large data files
+*.xlsx
+*.xls
+*.parquet
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
